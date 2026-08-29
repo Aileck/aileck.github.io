@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>愚者旅记 Arcana Journey</title>
+<meta name="description" content="愚者旅记 / Arcana Journey — 塔罗牌占卜与每日一牌日记。每天抽一张韦特塔罗牌，看牌意、正逆位与今日月相。">
+<link rel="icon" href="icon.png">
+<style>
+  :root {
+    --bg: #14101f;
+    --panel: #1c1730;
+    --ink: #e9e2d4;
+    --muted: #a79cba;
+    --gold: #d9b46a;
+    --line: #2e2745;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Cormorant Garamond", Georgia, "Songti SC", "Noto Serif SC", serif;
+    font-size: 18px;
+    line-height: 1.75;
+  }
+  main {
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 4rem 1.5rem 3rem;
+  }
+  header { text-align: center; }
+  .icon {
+    width: 112px; height: 112px;
+    border-radius: 26px;
+    box-shadow: 0 8px 32px rgba(0,0,0,.5);
+  }
+  .wordmark { max-width: 300px; width: 80%; margin: 1.5rem auto 0; display: block; }
+  h1 { font-size: 1.5rem; letter-spacing: .05em; margin: 1.5rem 0 .25rem; font-weight: 500; }
+  .tagline { color: var(--gold); margin: 0 0 .5rem; }
+  section { margin-top: 3.5rem; }
+  section + section { border-top: 1px solid var(--line); padding-top: 2.5rem; }
+  h2 { font-size: 1.05rem; letter-spacing: .18em; text-transform: uppercase; color: var(--muted); font-weight: 500; margin: 0 0 1rem; }
+  p { margin: 0 0 1rem; }
+  ul { margin: 0 0 1rem; padding-left: 1.2rem; }
+  li { margin-bottom: .4rem; }
+  a, a:visited { color: var(--gold); }
+  .cta {
+    display: inline-block;
+    margin-top: .5rem;
+    padding: .65rem 1.6rem;
+    border: 1px solid var(--gold);
+    border-radius: 999px;
+    color: var(--gold);
+    text-decoration: none;
+    letter-spacing: .08em;
+  }
+  .cta:hover { background: var(--gold); color: var(--bg); }
+  .lang-en { color: var(--muted); }
+  .lang-en h2 { color: var(--muted); }
+  footer {
+    margin-top: 3.5rem;
+    border-top: 1px solid var(--line);
+    padding-top: 1.5rem;
+    color: var(--muted);
+    font-size: .9rem;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img class="icon" src="icon.png" alt="愚者旅记 应用图标">
+    <img class="wordmark" src="wordmark-zh.png" alt="愚者旅记">
+    <h1>愚者旅记 · Arcana Journey</h1>
+    <p class="tagline">塔罗牌占卜与每日一牌日记</p>
+    <p><a class="cta" href="https://play.google.com/store/apps/details?id=com.dreamingquill.arcanajourney">在 Google Play 上获取</a></p>
+  </header>
+
+  <section>
+    <h2>关于这个应用</h2>
+    <p>这里住着一位话有点多的占卜师。她记得你抽过的每一张牌。</p>
+    <p>每天抽一张韦特塔罗牌，看牌意解读、正位与逆位，以及今天的月相。写下当下的心情和笔记，它们会留在日历上。等你日后翻回来看，这些牌已经连成了一段属于你自己的旅记。</p>
+    <ul>
+      <li>78 张完整牌组，可只用大阿尔卡那或小阿尔卡那，抽牌方式由你挑</li>
+      <li>占卜日记：心情、笔记、月相，全部收进日历</li>
+      <li>塔罗签：把这一次的牌做成一张签，存进相册或分享出去</li>
+      <li>主屏幕小组件，一下就能开始今天的占卜</li>
+      <li>支持简体中文、繁體中文、English、Español、Français、Deutsch、Italiano、日本語、한국어</li>
+    </ul>
+    <p>阅读历史和你写下的笔记只保存在这台设备上，不需要注册账号。</p>
+  </section>
+
+  <section class="lang-en">
+    <h2>About</h2>
+    <p>A reader lives here. She talks a little too much. And she remembers every card you have ever drawn.</p>
+    <p>Draw a Rider–Waite tarot card each day and read its meaning, upright and reversed, alongside today's moon phase. Write down how you feel and what you are thinking; it all stays on your calendar. Come back one day and you will find that the cards have quietly formed a journey of your own.</p>
+    <p>Your reading history and your notes stay on your device. No account needed.</p>
+  </section>
+
+  <section>
+    <h2>隐私与联系 · Privacy &amp; Contact</h2>
+    <p>隐私政策 / Privacy policy：<a href="https://sites.google.com/view/arcana-journey-privacy-policy/%E9%A6%96%E9%A1%B5">sites.google.com/view/arcana-journey-privacy-policy</a></p>
+    <p>联系邮箱 / Contact：<a href="mailto:aileck.developer@gmail.com">aileck.developer@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>愚者旅记 / Arcana Journey<br>塔罗内容用于自我反思与娱乐，不是对未来的保证。</p>
+  </footer>
+</main>
+</body>
+</html>
